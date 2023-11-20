@@ -1,0 +1,28 @@
+1. JDK 11 확인
+
+2. 받은 파일.zip > 이클립스(+스프링) > Spring Tool Suite3 > STS 3(Spring) > Spring Tool Suite 3.9.18
+> full distribution on Eclipse 4.19 > https://download.springsource.com/release/STS/3.9.18.RELEASE/dist/e4.19/spring-tool-suite-3.9.18.RELEASE-e4.19.0-win32-x86_64.zip
+
+
+3. C:\class\dev\sts-3.9.18.RELEASE
+
+4. Lombok 설치
+   a. 프로그램에 직접 설정
+   b. 프로그램에서 참조
+   - cmd > java.exe - jar lombok.jar
+   c. C:\class\dev\sts-3.9.18.RELEASE
+   
+5. 워크스페이스 지정
+   - C:\class\code\spring
+
+6. 워크스페이스 설정
+   a. 인코딩 > UTF-8
+      - workspace
+      - CSS
+      - HTML
+      - JSP
+      - Content Types
+   b. 폰트
+   c. Apache Tomcat
+      
+      7. http://localhost:8090/spring
