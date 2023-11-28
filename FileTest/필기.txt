@@ -1,15 +1,43 @@
+새 프로젝트 만들기
 
+- New > Spring Legacy Project > Spring MVC Project > "FileTest" > "com.test.file" > Finish
 
-Java + Spring 버전 변경
-
+1. Java + Spring 버전 변경
 
 2. 설정
 	a. pom.xml
 	b. web.xml
 	c. servlet-context.xml
 
-3. "com.test.file.controller" > "FileController.java"
-- views > "add.jsp
-		> addok.jsp
+3. 추가 
 
-- webapp > resources > "files"
+- "com.test.file.controller" > "FileController.java"
+- views > "add.jsp"
+	    > "addok.jsp"
+- webapp > resources > "files"	    
+
+
+
+4. 추가(다중 파일 업로드)
+
+- FileTest > "script.sql"
+
+- "com.test.file.model" > "FileDAO.java"(I)
+                        > "FileDAOImpl.java"(C)
+                        > "PlaceDTO.java"
+                        > "PicDTO.java"
+- views > "multi" > "list.jsp"
+				  > "add.jsp"
+				  > "view.jsp"                    
+
+
+
+
+
+
+
+
+
+
+
+

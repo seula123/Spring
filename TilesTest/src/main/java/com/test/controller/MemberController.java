@@ -12,21 +12,21 @@ public class MemberController {
 	@GetMapping(value = "/info.do")
 	public String info(Model model) {
 
-		return "member.info";  //<definition name="*">
-								//<definition name="*.*">
+		//return "info"; //<definition name="*">
+		return "member.info"; //<definition name="*.*">
 	}
 	
 	@GetMapping(value = "/history.do")
 	public String history(Model model) {
 
-//		return "history";
+		//return "history";
 		return "member.history";
 	}
 	
 	@GetMapping(value = "/favorite.do")
 	public String favorite(Model model) {
 
-//		return "favorite";
+		//return "favorite";
 		return "member.favorite";
 	}
 	
