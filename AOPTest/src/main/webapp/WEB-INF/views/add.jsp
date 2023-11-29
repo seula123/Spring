@@ -8,11 +8,12 @@
 <title>Example</title>
 <link rel="stylesheet" href="https://me2.do/5BvBFJ57">
 <style>
-	
+
 </style>
 </head>
 <body>
 	<!-- add.jsp -->
+	
 	<h1>등록하기</h1>
 	
 	<div>
@@ -20,18 +21,11 @@
 		<button type="button" onclick="location.href='/aop/add.do';">등록하기</button>
 		<button type="button" onclick="location.href='/aop/view.do';">상세보기</button>
 	</div>
-	
+
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script>
 		
 	</script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-

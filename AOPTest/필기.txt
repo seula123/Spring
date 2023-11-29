@@ -1,56 +1,13 @@
-새 프로젝트 만들기
-
-- New > Spring Legacy Project > Spring MVC Project > "AOPTest" > "com.test.aop" > Finish
-
-
-설정
+1. 설정
 - pom.xml > 의존성 2개 추가
 - web.xml
 - servlet-context.xml > 태그 1개 추가
 
-
-
-- "com.test.controller"  > "AOPController.java"
-- "com.test.persistence" > "AOPDAO.java"(I)
-                         > "AOPDAOImpl.java(C)
-                          
+- "com.test.controller"		> "AOPController.java"
+- "com.test.persistence"	> "AOPDAO.java"(I)
+							> "AOPDAOImpl.java"(C)
 - views > "list.jsp"
 		> "add.jsp"
 		> "view.jsp"
-		                          
-- "com.test.aspect" > "Log.java"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- "com.test.aspect"			> "Log.java"

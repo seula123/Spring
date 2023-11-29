@@ -28,24 +28,12 @@
 	<context:component-scan base-package="com.test.persistence" />
 	<context:component-scan base-package="com.test.aspect" />
 	
-	<!--  
-	
-		이전 수업: AOP + 콘솔 + XML 설정
-		지금 수업: AOP + 웹 + 어노테이션 설정
-	
+	<!--
+		이전 수업 : AOP + 콘솔 + XML 설정
+		지금 수업 : AOP + 웹 + 어노테이션 설정
 	-->
 	
 	<!-- AOP를 어노테이션 방식으로 적용할 수 있다. -->
 	<aop:aspectj-autoproxy />
 	
-	
 </beans:beans>
-
-
-
-
-
-
-
-
-

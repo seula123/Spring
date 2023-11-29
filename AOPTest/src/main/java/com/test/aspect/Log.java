@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Aspect //보조 업무 객체
 public class Log {
 
-	//포인트컷 > 주업무 메소드 > AspectJ 표현식
+	//포인트 컷 > 주업무 메소드 > AspectJ 표현식
 	@Pointcut("execution(* com.test.controller.AOPController.add(..))")
 	public void pc1() {
 		//구현부 없음
@@ -27,45 +27,10 @@ public class Log {
 		System.out.println("Before Advice");
 	}
 	
-	@After("execution(* com.test.controller.AOPController.list(..)))")
+	@After("execution(* com.test.controller.AOPController.list(..))")
 	public void m3() {
-		System.out.println("보조 업무");
+		System.out.println("보조업무");
 	}
 	
-	
 	//글쓰기, 수정하기, 삭제하기 > 권한 체크
-	//방문 기록 
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
